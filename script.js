@@ -54,11 +54,10 @@ for (var i = 0; i<passwordlength; i++){
   pass = pass + pickTheseLetters[Math.floor(Math.random()*
     (pickTheseLetters.length))];
 console.log(pass);
-return pass;
+
   }
-  
+  return pass 
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
